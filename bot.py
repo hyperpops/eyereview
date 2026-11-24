@@ -55,13 +55,14 @@ MAX_MESSAGE = 1000
 # Discord attachment links expire. Host the logo somewhere permanent
 # (for example on your website) and paste the new link here.
 LOGO = (
-    "https://media.discordapp.net/attachments/1551693461147746328/1556103325022429225/"
-    "eye-logo-white-1024.png?backend=b2&ex=6ac2f1a7&is=6ac1a027&"
-    "hm=b09867f6bf9af76b35711877b19c602b731c76f74d7b9a3b5a84f0f8bb8e423b&=&format=webp"
-    "&quality=lossless"
+    "https://media.discordapp.net/attachments/1556094070395248660/"
+    "1574774393098215514/eyed_logo_v2_1.png"
+    "?ex=6b06de71&is=6b058cf1&hm=5335402f2c03a5a7ec7ec019143d7802250c2357675ce4a321c8c3de441dd05b"
+    "&format=webp&quality=lossless"
 )
+
 FOOTER_TEXT = "Provided by @ Eye all rights reserved."
-EMBED_COLOR = discord.Color.from_rgb(255, 255, 255)
+EMBED_COLOR = discord.Color.from_rgb(0, 0, 0)
 
 DATA_FILE = Path(__file__).with_name("vouch_data.json")
 SEP = "▬" * 16
